@@ -14,11 +14,13 @@ fetch('https://api.github.com/users/adarshmaharjan')
 				const githubRepo = document.getElementById(
 					'repository-container'
 				);
-				githubRepo.innerHTML = repository.map((items) => {
-					const { name } = items;
-					// console.log(name);
-					return `<li>${name}</li>`;
-				});
+				githubRepo.innerHTML = repository
+					.map((items) => {
+						const { name } = items;
+						console.log(name);
+						return `<li>${name}</li>`;
+					})
+					.join('');
 			});
 	});
 //fetch github repo
