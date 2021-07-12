@@ -43,7 +43,7 @@ nav {
 	padding: 15px 0;
 }
 section {
-	overflow: hidden;
+	/* overflow: hidden; */
 }
 
 #logo {
