@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Portfolio</title>
+		<!-- fonts -->
+		<link rel="preconnect" href="https://fonts.googleapis.com" />
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+		<link
+			href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+			rel="stylesheet"
+		/>
+		<!-- definded css -->
+		<link rel="stylesheet" href="./style.css" />
+		<link rel="stylesheet" href="./responsive.css" />
+	</head>
+	<body>
+		<header>
+			<!-- navigation -->
+			<div class="container">
+				<nav>
+					<!-- logo -->
+					<div class="logo-container">
+						<a id="logo">Portfolio</a>
+					</div>
+					<ul class="nav-list">
+						<li><a href="/index.html">Home</a></li>
+						<li><a href="./projects/projects.html">Projects</a></li>
+						<li><a href="#">About</a></li>
+					</ul>
+				</nav>
+			</div>
+		</header>
+		<div id="loading">loading...</div>
+		<main id="main-container">
+			<h1>Welcome!!</h1>
+			<section id="banner">
+				<div class="container">
+					<div id="portfolio-wrapper">
+						<div id="portfolio-info-content">
+							<div id="portfolio-info">
+								<h2 id="full-name">Adarsh Mahrjan</h2>
+								<p id="bio"></p>
+								<h5 id="followers-info"></h5>
+								<p>
+									Check me on
+									<a id="github-link" href="">GithubLink</a>
+								</p>
+								<a
+									class="twitter-timeline"
+									data-width="500"
+									data-height="500"
+									href="https://twitter.com/adarshmaharjan?ref_src=twsrc%5Etfw"
+									>Tweets by adarshmaharjan</a
+								>
+								<script
+									async
+									src="https://platform.twitter.com/widgets.js"
+									charset="utf-8"
+								></script>
+							</div>
+						</div>
+
+						<div id="portfolio-image-container">
+							<img
+								src="https://avatars.githubusercontent.com/u/40669144?v=4"
+								alt="portfolio"
+								id="profile-image"
+							/>
+						</div>
+					</div>
+				</div>
+			</section>
+		</main>
+		<footer></footer>
+		<script src="./script.js"></script>
+	</body>
+</html>
