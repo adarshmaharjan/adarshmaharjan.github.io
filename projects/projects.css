@@ -67,9 +67,7 @@ section {
 	text-transform: capitalize;
 	font-size: 1rem;
 }
-main {
-	/* visibility: hidden; */
-}
+
 h1 {
 	text-align: center;
 	text-transform: uppercase;
