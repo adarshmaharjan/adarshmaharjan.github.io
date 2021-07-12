@@ -42,6 +42,9 @@ nav {
 	justify-content: space-between;
 	padding: 15px 0;
 }
+section {
+	overflow: hidden;
+}
 
 #logo {
 	font-family: inherit;
