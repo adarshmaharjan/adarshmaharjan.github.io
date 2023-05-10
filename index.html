@@ -1,80 +1,84 @@
 <!DOCTYPE html>
 <html lang="en">
-	<head>
-		<meta charset="UTF-8" />
-		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
-		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
-		<title>Portfolio</title>
-		<!-- fonts -->
-		<link rel="preconnect" href="https://fonts.googleapis.com" />
-		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-		<link
-			href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
-			rel="stylesheet"
-		/>
-		<!-- definded css -->
-		<link rel="stylesheet" href="./style.css" />
-		<link rel="stylesheet" href="./responsive.css" />
-	</head>
-	<body>
-		<header>
-			<!-- navigation -->
-			<div class="container">
-				<nav>
-					<!-- logo -->
-					<div class="logo-container">
-						<a id="logo">Portfolio</a>
-					</div>
-					<ul class="nav-list">
-						<li><a href="/index.html">Home</a></li>
-						<li><a href="./projects/projects.html">Projects</a></li>
-						<li><a href="#">About</a></li>
-					</ul>
-				</nav>
-			</div>
-		</header>
-		<div id="loading">loading...</div>
-		<main id="main-container">
-			<h1>Welcome!!</h1>
-			<section id="banner">
-				<div class="container">
-					<div id="portfolio-wrapper">
-						<div id="portfolio-info-content">
-							<div id="portfolio-info">
-								<h2 id="full-name">Adarsh Mahrjan</h2>
-								<p id="bio"></p>
-								<h5 id="followers-info"></h5>
-								<p>
-									Check me on
-									<a id="github-link" href="">GithubLink</a>
-								</p>
-								<a
-									class="twitter-timeline"
-									data-width="500"
-									data-height="500"
-									href="https://twitter.com/adarshmaharjan?ref_src=twsrc%5Etfw"
-									>Tweets by adarshmaharjan</a
-								>
-								<script
-									async
-									src="https://platform.twitter.com/widgets.js"
-									charset="utf-8"
-								></script>
-							</div>
-						</div>
 
-						<div id="portfolio-image-container">
-							<img
-								src="https://avatars.githubusercontent.com/u/40669144?v=4"
-								alt="portfolio"
-								id="profile-image"
-							/>
-						</div>
-					</div>
-				</div>
-			</section>
-		</main>
-		<footer></footer>
-		<script src="./script.js"></script>
-	</body>
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="css/style.css" />
+  <script src="https://code.jquery.com/jquery-1.7.2.min.js"></script>
+  <title>Portfolio</title>
+  <link rel='shortcut icon' type='image/x-icon' href='./images/user-profile-icon.svg' />
+</head>
+
+<body>
+  <div class="container">
+    <nav>
+      <ul>
+        <li id="about">/About</li>
+        <li id="contact">/Contact</li>
+        <li id="resume"><a rel="noopener class=" resume" target="_blank"
+            href="https://drive.google.com/file/d/1nUI-tMK35MrgV8m0L2EHR_gWmxWxPOPe/view?usp=share_link">/Resume</a>
+        </li>
+      </ul>
+    </nav>
+
+    <main>
+      <h1>AdarshMaharjan:$<span class="cursor">|</span></h1>
+      <div class="terminal">
+        <span> \[._.]/ Hi I am Adarsh Maharjan</span>
+        <br>
+        <span class="dollar"> A "Software Developer</span>
+        <br>
+        <span class="dollar"> Welcome to my world </span>
+        <br>
+        <span class="dollar"> find me online on:</span>
+        <br>
+
+        <ul>
+          <li>
+            <a rel="noopener noreferrer" href="https://www.linkedin.com/in/adarsh-maharjan-ab19ab164/"
+              target="_blank">LinkedIn</a>
+          </li>
+          <li>
+            <a rel="noopener noreferrer" href="https://github.com/adarshmaharjan" target="_blank">Github</a>
+          </li>
+        </ul>
+      </div>
+
+    </main>
+  </div>
+
+  <div class="hidden">
+    <div id="about-content">
+      <h2>about-me:$<span class="cursor">|</span></h2>
+      <p>
+        I am a Software engineer learning and experiencing the world of coding and programming. I am committed to
+        utilizing my skills to further the company's mission and am proficient in various platforms, languages, and
+        embedded systems.
+
+      </p>
+    </div>
+
+    <div id="contact-content">
+      <h2>contact-me:$<span class="cursor">|</span></h2>
+      <p>You can contact me at the email below
+      <ul>
+        <li>
+          <label for="email">Email:</label>
+          <a href="mailto:adarsh986030@gmail.com">adarsh986030@gmail.com</a>
+        </li>
+        and reach me on
+        <li><a rel="noopener" href="https://www.linkedin.com/in/adarsh-maharjan-ab19ab164/" target="_blank">LinkedIn</a>
+        </li>
+        </p>
+      </ul>
+    </div>
+  </div>
+
+  <script src="js/winbox.bundle.js"></script>
+  <script src="js/main.js"></script>
+
+</body>
+
 </html>
